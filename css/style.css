@@ -93,7 +93,9 @@ article{
 
 footer hr
 {
-    margin: -17px 0
+    position: relative;
+    top: 25px;
+    z-index: -1;
 }
 footer
 {
