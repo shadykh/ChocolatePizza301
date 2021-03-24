@@ -1,18 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); /*font-family: 'Dancing Script', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); /* font-family: 'Indie Flower', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&display=swap'); /* font-family: 'Anton', sans-serif;*/
+
+
+
+
+
+
+
 body
 {
     width: 960px;
     margin: auto;
+    color: gray;
 }
 h1
 {
     font-style: italic;
     text-align: left;
     margin: 0 53px;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
+h3 {
+    font-size: 39px;
+    color: black;
+    font-family: 'Anton', sans-serif;
 }
 .slag {
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-color: rgb(3, 3, 8);
-margin: 0px 52px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(3, 3, 8);
+    margin: 0px 52px;
+    font-size: 8px;
 }
 #img{
     
@@ -22,25 +43,27 @@ margin: 0px 52px;
 
 .image{
     float: right;
-    /* margin-top: auto; */
-    margin: -35px 0px;
+    position: relative;
+    bottom: 45px;
 }
-
+.imagese {
+    position: relative;
+    bottom: 60px;
+}
 header p {
-    margin: -19px;
     width: 338px;
+}
+h6 {
+    float: left;
+    position: relative;
+    bottom: 54px;
 }
 header{
     border-bottom: 5px solid #b2acac;
     padding: 10px 0;
     width: 899px;
 }
-section{
-    display: flex;
-}
-h6{
-    margin: 40px -126px;
-}
+
 article{
     width: 904px;
     line-height: 1.5;
@@ -51,12 +74,13 @@ article{
 {
     display: -webkit-box;
     background-image: url(../assets/list-bg.png);
-    width: 900px;
+    width: 855px;
     margin-bottom: 31px;
     height: 180px;
     background-size: auto;
     padding-left: 45px;
     padding-top: 24px;
+    font-family: 'Indie Flower', cursive;
     
 }
 .checkbox ul:nth-child(1) {
@@ -66,10 +90,6 @@ article{
 .checkbox ul:nth-child(2) {
     list-style-type: square;
 }
- /* #sec2 hr{
-    margin: 10px;
-    color: gray;
-}  */
 
 footer hr
 {
@@ -86,24 +106,41 @@ footer
 {
     width: 900px;
     border-top: 7px solid #8d8a8ae3;
-    padding-top: 24px
+    padding-top: 24px;
+    height: 160px;
 }
 
 button
 {
-    background-color: rgb(180, 65, 65);
-    width: 240px;
+    background-color: rgb(232, 73, 36);
     height: 62px;
+    position: relative;
+    bottom: 168px;
+    left: 740px;
+    color: white;
+}
+#sec2 img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#sec2 h2 {
+    position: relative;
+    bottom: 84px;
+    left: 86px;
+    color: black;
 }
 
 #sec2 p 
 {
-    width: 666px;
-    line-height: 1.2;
-    padding: 0px 10px;
+    position: relative;
+    bottom: 90px;
+    left: 88px;
+    text-align: justify;
+    width: 68%;
 }
 
 .check
 {
-    margin: 0 154px
+    margin: 0 261px
 }
